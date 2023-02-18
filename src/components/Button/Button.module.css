@@ -1,0 +1,20 @@
+.button {
+  border: none;
+  border: 1px solid rgba(110, 110, 110, 0.486);
+
+  width: 75%;
+  height: fit-content;
+  cursor: pointer;
+  background-color: #b9937d9f;
+  border-radius: 10px;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: bold;
+  transition: 1s ease-in-out;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.6);
+  background-color: #7db9b6;
+}
